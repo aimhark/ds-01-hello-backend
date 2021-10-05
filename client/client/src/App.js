@@ -3,7 +3,7 @@ import './App.css';
 function App() {
 
   const courses = () => {
-    fetch('http://localhost:5000/html', {
+    fetch('http://localhost:5000/json', {
     method: "GET"
     })
       .then(res => res.json())
